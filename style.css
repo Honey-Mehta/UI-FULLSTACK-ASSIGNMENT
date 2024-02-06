@@ -16,6 +16,10 @@ html {
 }
 
 
+
+
+
+
 body,
 html {
   font-family: "Poppins", sans-serif;
@@ -28,7 +32,7 @@ body {
   font-size: 1.4rem;
 }
 .profile_image {
-  
+
   border-radius: 50%;
 }
 
@@ -282,4 +286,23 @@ footer {
   #contact .container {
     height: 50vh;
   }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 500px) {
+  .container{
+   display: flex;
+   flex-direction: column;
+   width:100%;  
+   
+  
+  }
+
+  ul{
+
+    flex-direction: column;
+  }
+
+
+
 }
